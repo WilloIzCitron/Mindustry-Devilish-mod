@@ -1,0 +1,12 @@
+name: "Baleful Gamma"
+description: "[red] Advanced Core unit, has 30 sec of shielding and one hit"
+health: 1
+"abilities": [
+    {
+    "type": "mindustry.entities.abilities.ForceFieldAbility",
+    "radius": 10,
+    "regen": 0.5,
+    "max": 1,
+    "cooldown": 30
+        }
+    ]
