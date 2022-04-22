@@ -1,6 +1,6 @@
-name: "eboy-devilish-mode"
+name: "devilish-mode"
 displayName: "Devilish Mode"
-author: "Eboy Plays"
+author: "████ Plays"
 description: "Recreating Slotterleet Hard Mode Mod compatible for V7, also a HUGE Difficulty Spike"
 version: "1.2"
 minGameVersion: "131"
