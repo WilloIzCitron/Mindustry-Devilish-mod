@@ -1,0 +1,40 @@
+type: flying
+name: Univlogs
+description: "[pink] Tier 5: Royal Highness, Fires Laser Shots"
+speed: 0.2
+accel: 0.70
+onTitleScreen: false
+drag: 0.10
+engineOffset: 0
+engineSize: 0
+flying: true
+rotateSpeed: 0.80
+itemCapacity: 15
+hitSize: 80
+lowAltitude: true
+faceTarget: true
+range: 250
+deathExplosionEffect: "reactorExplosion"
+health: 777777
+armor: 777
+weapons: [
+{
+name: homing-shot
+x: 10
+y: 0
+recoil: 0
+reload: 2
+inaccuracy: 30
+rotate: true
+alternate: false
+mirror: true
+shake: 0
+bullet: {
+type: "LaserBulletType",
+trailColor: fd7bd1
+  hitSound: shoot
+  width: 30
+  length: 600
+  lengthFalloff: 1
+  damage: 777
+    }}]

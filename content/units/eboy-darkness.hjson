@@ -1,0 +1,40 @@
+type: flying
+name: EBOY.EXE
+description: "[purple] Secret: LASER SERIAL KILLER!!!"
+speed: 0.4
+accel: 0.70
+onTitleScreen: false
+drag: 0.10
+engineOffset: 0
+engineSize: 0
+flying: true
+rotateSpeed: 0.80
+itemCapacity: 15
+hitSize: 80
+lowAltitude: true
+faceTarget: true
+range: 200
+deathExplosionEffect: "reactorExplosion"
+health: 6666666
+armor: 666
+weapons: [
+{
+name: fatal-laser
+x: 0
+y: 0
+recoil: 0
+reload: 1
+inaccuracy: 70
+rotate: true
+alternate: false
+mirror: false
+shake: 0
+bullet: {
+type: "LaserBulletType",
+trailColor: DC143C
+  hitSound: shoot
+  width: 50
+  length: 700
+  lengthFalloff: 1
+  damage: 666
+    }}]

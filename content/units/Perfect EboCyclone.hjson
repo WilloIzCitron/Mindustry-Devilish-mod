@@ -1,0 +1,43 @@
+type: flying
+name: Perfect EboCyclone
+description: "[orange] Tier 4: Stronger EboCyclone, 4x the laser width"
+speed: 0.1
+accel: 0.70
+onTitleScreen: true
+drag: 0.10
+engineOffset: 0
+engineSize: 0
+flying: true
+rotateSpeed: 0.80
+commandLimit: 8
+itemCapacity: 15
+hitSize: 80
+lowAltitude: true
+faceTarget: false
+range: 300
+deathExplosionEffect: "reactorExplosion"
+health: 300000
+armor: 0
+weapons: [
+{
+  name: big-laser
+  x: 0
+  y: 0
+  soundPitchMin: 0.40
+  top: true
+  mirror: false
+  rotate: True
+  shake: 0
+  shootY: 5
+  reload: 450
+  inaccuracy: 0
+  recoil: 0
+  "bullet": {
+  type: "LaserBulletType",
+  trailColor: e1170d
+    hitSound: shoot
+    width: 120
+    length: 510
+    lengthFalloff: 1
+    damage: 666666
+    }}]

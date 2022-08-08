@@ -1,0 +1,40 @@
+type: flying
+name: Eboy Countryball
+description: "[sky] Tier 1: Classic Eboy Plays"
+speed: 0.2
+accel: 0.70
+onTitleScreen: false
+drag: 0.10
+engineOffset: 0
+engineSize: 0
+flying: true
+rotateSpeed: 0.80
+itemCapacity: 15
+hitSize: 80
+lowAltitude: true
+faceTarget: true
+range: 200
+deathExplosionEffect: "reactorExplosion"
+health: 120000
+armor: 0
+weapons: [
+{"name": "laser-blast",
+  "x": 15,
+  "y": 0,
+  "mirror": true,
+  "top": false,
+  "rotate": true
+  shootY: 0
+    recoil: 0
+	reload: 3
+	inaccuracy: 25
+	velocityRnd: 0
+    "bullet": {
+    type: "LaserBulletType",
+    trailColor: e1170d
+      hitSound: shoot
+      width: 30
+      length: 310
+      lengthFalloff: 1
+	    damage: 1666
+      }}]

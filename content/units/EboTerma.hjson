@@ -1,0 +1,41 @@
+type: flying
+name: EboTerma
+description: "[yellow] Tier 3: Extremely Tanky!, firing laser shots"
+speed: 0.1
+accel: 0.70
+onTitleScreen: true
+drag: 0.10
+engineOffset: 0
+engineSize: 0
+flying: true
+rotateSpeed: 0.80
+itemCapacity: 15
+hitSize: 80
+lowAltitude: true
+faceTarget: true
+range: 150
+deathExplosionEffect: "reactorExplosion"
+health: 200000
+armor: 66
+weapons: [
+{"name": "laser",
+ x: 0
+ y: 0
+ reload: 30
+ shotDelay: 0
+ xRand: 4
+ rotate: true
+ alternate: false
+ mirror: true
+ top: true
+  inaccuracy: 0
+  velocityRnd: 0
+  "bullet": {
+  type: "LaserBulletType",
+  trailColor: e1170d
+    hitSound: shoot
+    width: 30
+    length: 610
+    lengthFalloff: 1
+    damage: 2666
+    }}]

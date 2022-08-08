@@ -1,0 +1,42 @@
+type: flying
+name: EboCyclone
+description: "[green] Tier 2: Eboy Plays trapped in a Cyclone, Slow Attack Speed, Fatal Damage"
+speed: 0.2
+accel: 0.70
+onTitleScreen: true
+drag: 0.10
+engineOffset: 0
+engineSize: 0
+flying: true
+rotateSpeed: 0.80
+itemCapacity: 15
+hitSize: 80
+lowAltitude: true
+faceTarget: false
+range: 300
+deathExplosionEffect: "reactorExplosion"
+health: 110000
+armor: 0
+weapons: [
+{
+  name: big-laser
+  x: 0
+  y: 0
+  soundPitchMin: 0.40
+  top: true
+  mirror: false
+  rotate: True
+  shake: 0
+  shootY: 5
+  reload: 300
+  inaccuracy: 0
+  recoil: 0
+  "bullet": {
+  type: "LaserBulletType",
+  trailColor: e1170d
+    hitSound: shoot
+    width: 90
+    length: 510
+    lengthFalloff: 1
+    damage: 66666
+    }}]

@@ -1,0 +1,69 @@
+type: flying
+name: Mutated Eboy
+description: "[red] Tier 5: Bitten by Tarantula, Quad laser shot, uses his Force Field as health"
+speed: 0.2
+accel: 0.70
+onTitleScreen: false
+drag: 0.10
+engineOffset: 0
+engineSize: 0
+flying: true
+rotateSpeed: 0.80
+itemCapacity: 15
+hitSize: 80
+lowAltitude: true
+faceTarget: true
+range: 150
+deathExplosionEffect: "reactorExplosion"
+health: 1
+armor: 0
+weapons: [
+{
+name: homing-shot
+x: 12
+y: 1
+recoil: 0
+reload: 2
+inaccuracy: 30
+rotate: true
+alternate: false
+mirror: true
+shake: 0
+bullet: {
+type: "LaserBulletType",
+trailColor: 00FF00
+  hitSound: shoot
+  width: 30
+  length: 600
+  lengthFalloff: 1
+  damage: 666
+    }}
+    {
+    name: homing-shot
+    x: 5
+    y: 12
+    recoil: 0
+    reload: 5
+    inaccuracy: 30
+    rotate: true
+    alternate: false
+    mirror: true
+    shake: 0
+    bullet: {
+    type: "LaserBulletType",
+    trailColor: 00FF00
+      hitSound: shoot
+      width: 30
+      length: 600
+      lengthFalloff: 1
+      damage: 666
+        }}]
+"abilities": [
+{
+"type": "mindustry.entities.abilities.ForceFieldAbility",
+"radius": 145,
+"regen": 0.1,
+"max": 110000,
+"cooldown": 20
+    }
+]
